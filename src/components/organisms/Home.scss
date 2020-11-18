@@ -1,0 +1,43 @@
+form {
+    display: flex;
+    flex-direction: column;
+
+    input {
+        padding: 0.5rem;
+
+        height: 3rem;
+        width: 16rem;
+
+        &.disabled {
+            color: grey;
+        }
+    }
+
+    > *:not(:first-child) {
+        margin-top: 1rem;
+    }
+}
+
+.character-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    padding: 1rem;
+    margin-top: 1rem;
+
+    width: 32rem;
+    height: fit-content;
+
+    text-align: center;
+
+    .character {
+        width: 50%;
+    }
+
+    .character:not(first-child) {
+        margin-top: 0.5rem;
+    }
+}

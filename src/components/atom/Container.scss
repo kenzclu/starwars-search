@@ -1,0 +1,19 @@
+.page-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+
+    height: calc(100vh - 4rem);
+
+    border: 1px solid black;
+
+    overflow-y: scroll;
+
+    &.center {
+        align-items: center;
+    }
+
+    &.verticalCenter {
+        justify-content: center;
+    }
+}
