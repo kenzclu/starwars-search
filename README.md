@@ -1,5 +1,5 @@
 
-# Perx Starwars Search
+# Starwars Search
 [![js-standard-style](https://cdn.rawgit.com/standard/standard/master/badge.svg)](http://standardjs.com)  
 Search for your favourite characters from Star Wars
 
